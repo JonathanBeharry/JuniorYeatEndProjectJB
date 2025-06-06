@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- import the script.js file -->
+    <!-- We need to import JQUERY Library to make the api call-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="employees.js"></script>
+
+  </head>
+  
+  <!-- Call the int function when website loads -->
+  <body onload="init()">
+    <div>
+      <!--  Header or Banner -->
+      <div id="header">
+        <h1> Lesson 54 - Chinook Customers </h1>
+      </div>
+      <!--  nav bar -->
+      <nav id='nav'>
+        <h2>Navigation - Employees Page</h2>
+            <a href="index.html" class="button">HOME</a>   
+            <a href="Cars.html" class="button">CARS</a> 
+            <a href="Places.html" class="button">PLACES</a>
+           
+
+      </nav>
+      
+      <div class="container">
+        
+        <div class='panel'>
+          <div class="container filter">
+            <div>
+          
+                   History
+              <h4> History of J.B & C.S Cars n Corp
+                
+              </h4>
+              <div>J.B & C.S Cars n Corp: A Fictional Car Brand
+                Brand Name: J.B & C.S Cars n Corp
+
+                Founder: sdot
+
+                Founded: 2023
+
+                Headquarters: New York City, New York
+
+                Brand Overview
+
+                J.B & C.S Cars n Corp is a fictional American automotive manufacturer established by visionary entrepreneur sdot in New York City. The company was founded with a mission to blend innovative design, cutting-edge technology, and urban style, quickly making a name for itself in the bustling heart of the U.S. auto industry. </div>
+              
+             
+            </div>
+          </div>
+        </div>
+        
+        <div id='centerpanel' class='container'>
+        Our main location is in New York City 
+           <img src="car_img/build.jpg" alt="car" width="500" height="500">
+        </div>
+        
+        
+        <div class='panel'>
+          location
+          <br>
+          <img src="car_img/loc.png" alt="car" width="300" height="300">
+        </div>
+        
+      </div>
+
+      <div id='foot'>
+       
+      </div>
+
+    </div>
+    
+  </body>
+</html>

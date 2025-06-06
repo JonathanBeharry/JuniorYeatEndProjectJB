@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+  
+
+  <body>
+    <div>
+
+      <div id="header">
+        <h1> J.B & C.S Cars n Corp</h1>
+        <h3>(Funded by SDot Corp Inc)</h3>
+      </div>
+    
+      <nav id='nav'>
+        <h2>Home Page</h2>
+            <a href="index.html" class="button">HOME</a>   
+            <a href="Cars.html" class="button">CARS</a> 
+            <a href="Places.html" class="button">PLACES</a>
+            
+
+      </nav>
+      
+      <div class="container">
+        
+        <div class='panel'>
+                  <h2> Car images</h2>
+                  <img src="car_img/bug.jpg" alt="car" width="200" height="150">
+          <img src="car_img/cad.jpg" alt="car" width="200" height="150">
+          <img src="car_img/RR.jpg" alt="car" width="200" height="150">
+        </div>
+        
+        <div id='centerpanel' >
+         <h2> Info</h2>
+
+          <h3>
+          Welcome to J.B & C.S Cars n Corp website here we have a list of cars and places you can visit and we sell Afforadble and reliable cars that you can buy online or in person.
+          </h3>
+          <img src="car_img/build.jpg" alt="car" width="500" height="350">
+        </div>
+        
+        <div class='panel'>
+          <h2>About us</h2>
+          <h3>Phone:(917)-412-3213</h3>
+          <h3>Email:J.B.C.S123@gmail.com</h3>
+          <h3>Store Times
+         M-F:8AM-7PM
+         Sat-Sun:10AM-5PM</h3>
+        </div>
+        
+      </div>
+
+     
+       
+      </div>
+
+    </div>
+    
+  </body>
+</html>
